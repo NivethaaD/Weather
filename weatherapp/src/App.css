@@ -1,0 +1,117 @@
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  margin-top: 50%;
+  margin-bottom: 25%;
+  width:350px;
+  padding: 20px;
+  background-color: azure;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+}
+
+.input-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cityInput{
+  flex: 1;
+  height: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.search-icon{
+  padding: 5px;
+  cursor: pointer;
+}
+
+.image{
+  text-align: center;
+  padding: 10px;
+}
+.temp,
+.city,
+.country{
+
+  margin-top: 1px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.city{
+  color: rgb(231, 231, 17);
+  font-weight: 100;
+}
+
+.country{
+  color: rgb(153, 57, 57);
+}
+
+.coordinates{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.coordinates div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.coordinates div span{
+  font-size: 14px;
+  padding: 2px;
+
+}
+
+.coordinates div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+}
+.data-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.element{
+  text-align: center;
+}
+
+.text{
+  font-size: 14;
+  margin-top: 3px;
+  padding: 3px;
+}
+.error-message,
+.city-not-found{
+
+  text-align: center;
+}
